@@ -124,6 +124,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7943689B22612F31009B15EA /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				798280E22260EE7D0046742A /* APIManager.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		7943689D22612F54009B15EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				794368932260F94D009B15EA /* Product.swift */,
+				794368952260FA6A009B15EA /* BaseResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7943689F22612F77009B15EA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				794368A022612F85009B15EA /* Home */,
+				794368A222612F95009B15EA /* DetailProduct */,
+				794368A122612F89009B15EA /* AddProduct */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		794368A022612F85009B15EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				798280E02260EE090046742A /* HomeViewController.swift */,
+				794368912260F7ED009B15EA /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		794368A122612F89009B15EA /* AddProduct */ = {
+			isa = PBXGroup;
+			children = (
+				7943689722610BAB009B15EA /* AddProductViewController.swift */,
+			);
+			path = AddProduct;
+			sourceTree = "<group>";
+		};
+		794368A222612F95009B15EA /* DetailProduct */ = {
+			isa = PBXGroup;
+			children = (
+				79436899226115D9009B15EA /* DetailProductViewController.swift */,
+			);
+			path = DetailProduct;
+			sourceTree = "<group>";
+		};
 		798280A62260EA180046742A = {
 			isa = PBXGroup;
 			children = (
@@ -149,18 +201,14 @@
 		798280B12260EA180046742A /* interview-kiwari-ios */ = {
 			isa = PBXGroup;
 			children = (
+				7943689F22612F77009B15EA /* Modules */,
+				7943689D22612F54009B15EA /* Models */,
+				7943689B22612F31009B15EA /* Engine */,
 				798280B22260EA180046742A /* AppDelegate.swift */,
 				798280B62260EA180046742A /* Main.storyboard */,
 				798280B92260EA180046742A /* Assets.xcassets */,
 				798280BB2260EA180046742A /* LaunchScreen.storyboard */,
 				798280BE2260EA180046742A /* Info.plist */,
-				798280E02260EE090046742A /* HomeViewController.swift */,
-				798280E22260EE7D0046742A /* APIManager.swift */,
-				794368912260F7ED009B15EA /* HomeTableViewCell.swift */,
-				794368932260F94D009B15EA /* Product.swift */,
-				794368952260FA6A009B15EA /* BaseResponse.swift */,
-				7943689722610BAB009B15EA /* AddProductViewController.swift */,
-				79436899226115D9009B15EA /* DetailProductViewController.swift */,
 			);
 			path = "interview-kiwari-ios";
 			sourceTree = "<group>";

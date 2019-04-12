@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Kingfisher (4.9.0)
+  - Moya/Core (10.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (3.2.4)
+  - RxAtomic (4.4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.9.0)
+  - Moya/RxSwift (~> 10.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Result
+    - RxAtomic
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
+  Moya: 2b0531a9fef318e0bc484030c3db1e6f279ccb66
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+
+PODFILE CHECKSUM: 4ed278fc1768567208dac61d3b2341d917aa015a
+
+COCOAPODS: 1.6.0.rc.2

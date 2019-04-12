@@ -1,0 +1,6 @@
+framework module Pods_interview_kiwari_iosUITests {
+  umbrella header "Pods-interview-kiwari-iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
